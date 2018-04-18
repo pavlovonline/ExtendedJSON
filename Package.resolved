@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BSON",
+        "repositoryURL": "https://github.com/OpenKitten/BSON.git",
+        "state": {
+          "branch": "develop/6.0/rewrite",
+          "revision": "fdfb87bd94f2876942cda1e3ca2a54cecf889e45",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
