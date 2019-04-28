@@ -11,12 +11,11 @@ let package = Package(
             targets: ["ExtendedJSON"]),
     ],
     dependencies: [
-         .package(url: "https://github.com/OpenKitten/BSON.git", .revision("develop/6.0/rewrite")),
     ],
     targets: [
         .target(
             name: "ExtendedJSON",
-            dependencies: ["BSON"]),
+            dependencies: []),
         .testTarget(
             name: "ExtendedJSONTests",
             dependencies: ["ExtendedJSON"]),
